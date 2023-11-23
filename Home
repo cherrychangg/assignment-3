@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <div class="root">
-    </div>
-    <div class="content">
-    </div>
+  <div class="root"> 
+  <div class="content">
+  </div>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/globals.css">
 </head>
 
 <body>
-    <button class="btn btn-background-circle">Home</button>
-    <button class="btn btn-background-circle">Portfolio</button>
-    <button class="btn btn-background-circle">Experience</button>
-</body>
+  <body>
+      <button class="btn btn-background-circle">Home</button>
+      <button class="btn btn-background-circle">Portfolio</button>
+      <button class="btn btn-background-circle">Experience</button>
+  </body>
+
 </html>
 <header>
-    <div>
+  <div>
     <h1>Hello. Welcome to <br>Cherry's page</h1>
-    </div>
+  </div>
 </header>
-    <div id="box1">
-    
-<div>
-<p>I'm studying Global Business and Digital Arts at University of Waterloo. </p>
+<div class="box"><div class="rectangle"></div></div>
+
+  <div>
+    <p>I'm studying Global Business and Digital Arts at University of Waterloo. </p>
+  </div>
+  <h2>Project</h2>
+  <div id="container1">
+    <div id="blockA">
+      Photoshop
+      <img src="img/A5_ Cherry_Chang_Paradox.jpg" alt="Assignment" class="center" width="450" 
+      height="350" >
+    </div>
+    <div id="blockB">
+      Photography
+      <img src="img/36190005.JPG"alt="Assignment" class="center" width="450" 
+      height="300">
+    <div id="blockC">
+
+    </div>
+    </div>
+  </div>
 </div>
 
-<div id="container1">
-  <h2>The Box Model</h2>
-  <div id="blockA">
-    Photoshop
-  </div>
-  <div id="blockB">
-    Illustrator
-  </div>
-  <div id="blockC">
-    UX Design
-  </div>
-</div>
-</html>
+  </html>
