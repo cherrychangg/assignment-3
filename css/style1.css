@@ -1,0 +1,44 @@
+.frame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 755px;
+    align-items: flex-start;
+    gap: 356px 7px;
+    position: relative;
+}
+
+.frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lato-Bold", Helvetica;
+    font-weight: 700;
+    color: #bcbcbc;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .div {
+    position: relative;
+    width: fit-content;
+    font-family: "Lato-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+    
+.frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Lato-Bold", Helvetica;
+    font-weight: 700;
+    color: #bcbcbc;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
